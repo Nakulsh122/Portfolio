@@ -1,1 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;500;600;700&family=Source+Code+Pro&family=Space+Mono:ital@1&display=swap');
+div.card{
+    /* overflow: hidden; */
+}
+div img.card{
+    height:100%;
+    width:100%;
+    border-radius: inherit;
+    cursor: pointer;
+}
+div h2{
+    text-align: left;
+    Color : rgb(0,139,250);
+    font-weight: bold;
+    text-decoration: underline;
+}
+div.intro{
+    background-color: black;
+    padding:10px;
+    height:25%;
+    overflow: auto;
+}
+div img.skills{
+    height:100%;
+}

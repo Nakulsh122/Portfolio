@@ -115,7 +115,7 @@ h1.heading{
     margin:5px;
     height:10%;
 }
-div.project{
+div.card{
     border: 2px solid white;
     border-radius:10px;
     justify-content: center;
@@ -124,24 +124,26 @@ div.project{
     width:500px;
     margin:10px;
     margin-inline:30px;
+    box-shadow: 10px 10px 40px rgba(43, 43, 43, 0.733);
+    transition: all 0.3s ease 0s;
+}
+div.card:hover{
+    transform: scale(1.);
 }
 div#skills{
     display: grid;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
 div.box{
-    margin:20px;
+    /* margin:20px; */
     padding:10px;
     border:2px solid red;
     border-radius:10px;
     text-align:center;
-    height:30%;
+    height:50%;
 }
-/* #profile { */
-    /* transition:all 0.3s ease 0s; */
-    /* border-radius:10px; */
-/* } */
+
 
 
 
