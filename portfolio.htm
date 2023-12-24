@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nakul Sharma</title>
-    <link rel="icon" type="image/x-icon" href="N.png" />
+    <link rel="icon" type="image/x-icon" href="Images\N.png" />
     <link rel="stylesheet" href="portfolio.css" />
-  </head>
+    <link rel="stylesheet" href="gallery.csss" />
+</head>
+  <!-- Errors 
+1.) The aboutm e section
+2.)Aligningthe images in the skills  -->
   <body>
     <nav class="navlist">
-      <img src="No_kool.png" alt="No_kool" id="icon" />
+      <img src="Images\No_kool.png" alt="No_kool" id="icon" />
       <ul>
         <li class="navitem"><a href="#hero">Home</a></li>
         <li class="navitem"><a href="#abm">About Me</a></li>
@@ -23,8 +27,8 @@
     </nav>
     <hr />
     <section id="hero">
-      <div class="col_cont">
-        <img src="circle_profile.png" alt="profile" id="profile" />
+      <div id="col_cont">
+        <img src="Images\circle_profile.png" alt="profile" id="profile" />
         <h3>Hello,I'm Nakul&#128075;</h3>
         <h1>Developer,</h1>
         <h1>Graphics Designer</h1>
@@ -37,10 +41,64 @@
         <buttun class="reach"><a href="#contact">Reach Out</a></buttun>
       </div>
     </section>
-    <section id="abm"></section>
+    <hr>
+    <section id="abm">
+        <div id="row_cont" class="abm">
+            <div id="col_cont" class="abm" >
+                <h2>About</h2>
+                <p>Hey there! I'm Nakul Sharma, a Developer and Graphics Designer hailing from IIT Kharagpur. With a toolkit including HTML, CSS, and a creative suite featuring Photoshop to Blender, I enjoy bringing digital ideas to life with a touch of innovation and design finesse. Let's turn concepts into visually stunning realities!</p>
+                <p>I also like to cycle,read and game in my free time.</p>
+                <hr width="85%">
+                <h3>Technologies</h3>
+                <div id="row_cont">
+                    <div><ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul></div>
+                    <div><ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul></div>
+                </div>
+            </div>
+            <div>
+                <img src="Images/profile.png" alt="profile" class="profile">
+            </div>
+        </div>
+    </section>
     <section id="projects"></section>
-    <section id="skills"></section>
-    <section id="gallery"></section>
+    <section id="skills">
+        <h2>Skills I Have</h2>
+        <div id="row_cont">
+            <div class="box"><img src="Images/photoshop.png" alt="Skills" class="skill"><h4>Photoshop</h4></div>
+            <div class="box"><img src="Images/premiere-pro.png" alt="Skills" class="skill"><h4>Premiere-Pro</h4></div>
+            <div class="box"><img src="Images/after-effects.png" alt="Skills" class="skill"><h4>After-Effects</h4></div>
+            <div class="box"><img src="Images/blender_logo.png" alt="Skills" class="skill"><h4>Blender</h4></div>
+            <div class="box"><img src="Images/indesign.png" alt="Skills" class="skill"><h4>InDesign</h4></div>
+            <div class="box"><img src="Images/html-5.png" alt="Skills" class="skill"><h4>HTML-5</h4></div>
+            <div class="box"><img src="Images/css-3.png" alt="Skills" class="skill"><h4>CSS-3</h4></div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="slider_container">
+            <div class="slider">
+                <img src="" alt="" id="1">
+                <img src="" alt="" id="2">
+                <img src="" alt="" id="3">
+                <img src="" alt="" id="4">
+                <img src="" alt="" id="5">
+            </div>
+            <div class="slider_nav">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+    </section>
     <section id="contact"></section>
     <footer></footer>
   </body>

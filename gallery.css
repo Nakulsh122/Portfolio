@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Space+Mono:wght@400;700&display=swap");
+:root {
+  --clr-text: rgb(177, 177, 177);
+  --clr-pop: rgb(0, 139, 255);
+}
+/* Adding a scroll bar css */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+
+}
+::-webkit-scrollbar-thumb {
+  background:rgb(0, 139, 255);
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 139, 250, 0.8);
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--clr-text);
+  font-family: "Space Mono", "Rubik Mono One";
+}
+body {
+  background-color: black;
+}
+section {
+  margin-block: 10px 20px;
+  /* height: 700px; */
+}
+div{
+  border:2px solid red;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 10px;
+}
+a {
+  text-decoration: none;
+}
