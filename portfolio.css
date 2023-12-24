@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Space+Mono:wght@400;700&display=swap");
+:root {
+  --clr-text: rgb(177, 177, 177);
+  --clr-pop: rgb(0, 139, 255);
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--clr-text);
+  font-family: "Space Mono", "Rubik Mono One";
+}
+body {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0px 2px 30px rgba(0, 139, 250, 0.5);
+  cursor: pointer;
+}
+#icon {
+  height: 25px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  margin-inline: 5px;
+}
+nav li a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+nav li a:hover {
+  color: var(--clr-pop);
+}
+.btn {
+  background-color: rgba(0, 133, 250, 1);
+  color: white;
+  text-emphasis: bold;
+  padding: 5px;
+  border-radius: 5px;
+  width: 10%;
+  transition: all 0.3s ease;
+  /* box-shadow: 0px 10px 30px rgba(0, 139, 250, 0.5); */
+}
+.btn:hover {
+  background-color: rgba(0, 139, 250, 0.8);
+}
+.col_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row_cont {
+  display: flex;
+  flex-direction: row;
+}
+section {
+  margin-block: 10px 20px;
+}
+h3 {
+  font-size: 2rem;
+}
+img#profile {
+  margin-top: 20px;
+  width: 200px;
+  border: 2px solid var(--clr-pop);
+  border-radius: 100px;
+}
+h1 {
+  font-family: "Rubik Mono One";
+  font-size: 5rem;
+  font-weight: 300;
+}
+p.hero {
+  font-size: 1.5rem;
+  width: 60%;
+  text-align: center;
+}
+.em {
+  color: var(--clr-pop);
+  font-size: 1.25em;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.reach {
+  margin: 20px;
+  margin-top: 40px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  transition: all 0.3s ease 0s;
+}
+.reach:hover {
+  transform: scale(1.2);
+  background-color: var(--clr-pop);
+  color: black;
+  font-weight: bolder;
+  box-shadow: 0px 5px 20px rgba(0, 139, 250, 0.5);
+}
