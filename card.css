@@ -32,6 +32,6 @@ div h2{
 div.intro{
     background-color: black;
     padding:10px;
-    height:25%;
-    overflow: auto;
+    /* overflow: auto; */
+    position:relative;
 }
