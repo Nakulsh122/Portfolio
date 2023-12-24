@@ -55,7 +55,7 @@ button:hover{
 }
 section{
     background-color: rgb(31,31,31,.5);
-    height:750px;
+    /* height:750px; */
     margin:10px;
     padding:20px;
     align-items:center;
@@ -115,21 +115,7 @@ h1.heading{
     margin:5px;
     height:10%;
 }
-div.card{
-    border: 2px solid white;
-    border-radius:10px;
-    justify-content: center;
-    text-align: center;
-    display:inline-block;
-    width:500px;
-    margin:10px;
-    margin-inline:30px;
-    box-shadow: 10px 10px 40px rgba(43, 43, 43, 0.733);
-    transition: all 0.3s ease 0s;
-}
-div.card:hover{
-    transform: scale(1.);
-}
+
 div#skills{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -143,7 +129,26 @@ div.box{
     text-align:center;
     height:50%;
 }
-
+p.text{
+    padding:5px;
+    margin:5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+div#binder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div img.skills{
+    height:100px;
+    margin:10px;
+    /* box-shadow: 10px 10px 40px rgb(0, 0, 0); */
+    transition: all 0.3s;
+}
+div img.skills:hover{
+    transform: scale(1.05);
+}
 
 
 

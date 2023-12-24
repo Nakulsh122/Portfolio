@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;500;600;700&family=Source+Code+Pro&family=Space+Mono:ital@1&display=swap');
 div.card{
-    /* overflow: hidden; */
+    border: 2px solid white;
+    border-radius:10px;
+    justify-content: center;
+    text-align: center;
+    display:inline-block;
+    width:500px;
+    margin:10px;
+    margin-inline:10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 40px rgba(43, 43, 43, 0.733);
+    transition: all 0.3s ease 0s;
+}
+div.card:hover{
+    transform: scale(1.05);
 }
 div img.card{
     height:100%;
@@ -19,7 +32,4 @@ div.intro{
     padding:10px;
     height:25%;
     overflow: auto;
-}
-div img.skills{
-    height:100%;
 }
