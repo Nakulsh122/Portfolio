@@ -6,6 +6,7 @@
 /* Adding a scroll bar css */
 ::-webkit-scrollbar {
   width: 10px;
+  height:10px;
 }
 ::-webkit-scrollbar-track {
   background: #000000;
@@ -41,4 +42,20 @@ div{
 }
 a {
   text-decoration: none;
+}
+
+.slider_container{
+    width:100%;
+    padding: 10px;
+    margin:0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory  ;
+}
+.slider img{
+    height: 200px;
+    flex: 1 0 100%;
 }
