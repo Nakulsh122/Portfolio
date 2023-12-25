@@ -7,10 +7,10 @@
     <link rel="icon" type="image/x-icon" href="Images\N.png" />
     <link rel="stylesheet" href="portfolio.css" />
     <!-- <link rel="stylesheet" href="gallery.csss" /> -->
-</head>
+  </head>
   <!-- Errors 
 1.) The aboutm e section
-2.)Aligningthe images in the skills  -->
+-->
   <body>
     <nav class="navlist">
       <img src="Images\No_kool.png" alt="No_kool" id="icon" />
@@ -25,13 +25,12 @@
         </li>
       </ul>
     </nav>
-    <hr />
     <section id="hero">
       <div id="col_cont">
         <img src="Images\circle_profile.png" alt="profile" id="profile" />
-        <h3>Hello,I'm Nakul&#128075;</h3>
+        <h3>Hello,I'm Nakul Sharma&#128075;</h3>
         <h1>Developer,</h1>
-        <h1>Graphics Designer</h1>
+        <h1>Graphics Designer.</h1>
         <p class="hero">
           A passionate <span class="em">Developer</span> and
           <span class="em">Graphics Designer</span>,proficient in many
@@ -41,93 +40,180 @@
         <buttun class="reach"><a href="#contact">Reach Out</a></buttun>
       </div>
     </section>
-    <hr>
     <section id="abm">
-        <div id="row_cont" class="abm">
-            <div id="col_cont" class="abm" >
-                <h2>About</h2>
-                <p>Hey there! I'm Nakul Sharma, a Developer and Graphics Designer hailing from IIT Kharagpur. With a toolkit including HTML, CSS, and a creative suite featuring Photoshop to Blender, I enjoy bringing digital ideas to life with a touch of innovation and design finesse. Let's turn concepts into visually stunning realities!</p>
-                <p>I also like to cycle,read and game in my free time.</p>
-                <hr width="85%">
-                <h3>Technologies</h3>
-                <div id="row_cont">
-                    <div><ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul></div>
-                    <div><ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul></div>
-                </div>
+      <!-- <div id="row_cont" class="abm">
+        <div id="col_cont" class="abm">
+          <h2>About</h2>
+          <p>
+            Hey there! I'm Nakul Sharma, a Developer and Graphics Designer
+            hailing from IIT Kharagpur. With a toolkit including HTML, CSS, and
+            a creative suite featuring Photoshop to Blender, I enjoy bringing
+            digital ideas to life with a touch of innovation and design finesse.
+            Let's turn concepts into visually stunning realities!
+          </p>
+          <p>I also like to cycle,read and game in my free time.</p>
+          <hr width="85%" />
+          <h3>Technologies</h3>
+          <div id="row_cont">
+            <div>
+              <ul class="tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+              </ul>
             </div>
             <div>
-                <img src="Images/profile.png" alt="profile" class="profile">
+              <ul class="tech">
+                <li>BLENDER</li>
+                <li>Adobe Suite</li>
+                <li>Canva</li>
+              </ul>
             </div>
+          </div>
         </div>
+        <div>
+          <img src="Images/profile.png" alt="profile" class="profile" />
+        </div> -->
+        <div id="row_cont">
+          <div id="col">
+            <h2>About</h2>
+            <p class="text">
+            Hey there! I'm Nakul Sharma, a <span class="em">Developer</span> and <span class="em">Graphics Designer</span>
+            hailing from IIT Kharagpur. With a toolkit including<span class="em">HTML</span>,<span class="em">CSS</span>,<span class="em">Javascript</span>, and
+            a creative suite featuring <span class="em">Photoshop</span> to <span class="em">Blender</span>, I enjoy bringing
+            digital ideas to life with a touch of innovation and design finesse.
+            Let's turn concepts into visually stunning realities!
+            </p>
+            <p class="text">I also like to cycle,read and game in my free time.</p>
+            <hr width="100%"> 
+            <div>
+              <h4 class="left">Technologies I Know</h4>
+            </div>
+              <div>
+                <ul>
+                  <li class="tech">HTML</li>
+                  <li class="tech">CSS</li>
+                  <li class="tech">Javascript</li>
+                </ul> 
+              </div>
+              <div>
+                <ul>
+                  <li class="tech">Blender</li>
+                  <li class="tech">Adobe Suite</li>
+                  <li class="tech">Canva</li>
+                </ul>
+              </div>
+          </div>
+          <div class="profile">
+            <img src="Images/profile.png" alt="" class="profile">
+          </div>
+        </deiv>
+      </div>
     </section>
     <section id="projects"></section>
     <section id="skills">
-        <h2>Skills I Have</h2>
-        <div id="row_cont">
-            <div class="box"><img src="Images/photoshop.png" alt="Skills" class="skill"><h4>Photoshop</h4></div>
-            <div class="box"><img src="Images/premiere-pro.png" alt="Skills" class="skill"><h4>Premiere-Pro</h4></div>
-            <div class="box"><img src="Images/after-effects.png" alt="Skills" class="skill"><h4>After-Effects</h4></div>
-            <div class="box"><img src="Images/blender_logo.png" alt="Skills" class="skill"><h4>Blender</h4></div>
-            <div class="box"><img src="Images/indesign.png" alt="Skills" class="skill"><h4>InDesign</h4></div>
-            <div class="box"><img src="Images/html-5.png" alt="Skills" class="skill"><h4>HTML-5</h4></div>
-            <div class="box"><img src="Images/css-3.png" alt="Skills" class="skill"><h4>CSS-3</h4></div>
+      <h2 class="center">Skills I Have</h2>
+      <div id="grid">
+        <div class="box" id="grid_elm1">
+          <img src="Images/photoshop.png" alt="Skills" class="skill" />
+          <h4>Photoshop</h4>
         </div>
+        <div class="box" id="grid_elm2">
+          <img src="Images/premiere-pro.png" alt="Skills" class="skill" />
+          <h4>Premiere-Pro</h4>
+        </div>
+        <div class="box" id="grid_elm3">
+          <img src="Images/after-effects.png" alt="Skills" class="skill" />
+          <h4>After-Effects</h4>
+        </div>
+        <div class="box" id="grid_elm4">
+          <img src="Images/blender_logo.png" alt="Skills" class="skill" />
+          <h4>Blender</h4>
+        </div>
+        <div class="box" id="grid_elm5">
+          <img src="Images/indesign.png" alt="Skills" class="skill" />
+          <h4>InDesign</h4>
+        </div>
+        <div class="box" id="grid_elm6">
+          <img src="Images/html-5.png" alt="Skills" class="skill" />
+          <h4>HTML-5</h4>
+        </div>
+        <div class="box" id="grid_elm7">
+          <img src="Images/css-3.png" alt="Skills" class="skill" />
+          <h4>CSS-3</h4>
+        </div>
+      </div>
     </section>
     <section id="gallery">
-        <div id="col_cont">
-            <h2>My Gallery</h2>
-            <p>These are some my creations in Blender.</p>
-            <div class="slider_container">
-                <div class="slider">
-                    <img src="Images/Halo.png" alt="" id="1">
-                    <img src="Images/nebula.png" alt="" id="2">
-                    <img src="Images/data stack .png" alt="" id="3">
-                    <img src="Images/rugged planet .png" alt="" id="4">
-                    <img src="Images/untitled.png" alt="" id="5">
-                </div>
-            </div>
-            <div class="slider_nav">
-                <a href="#1">&#9898;</a>
-                <a href="#2">&#9898;</a>
-                <a href="#3">&#9898;</a>
-                <a href="#4">&#9898;</a>
-                <a href="#5">&#9898;</a>
-            </div>
-            <p>You can also view my Design portfolio throught this.&#128071;</p>
-            <buttun class="reach"><a href="https://drive.google.com/drive/folders/18g46zbwdJFZBXqXtMwOciA3Qk23sdnhF?usp=drive_link" target="_blank">Design Portfo</a></buttun>
+      <div id="col_cont">
+        <h2>My Gallery</h2>
+        <p>These are some my creations in Blender.</p>
+        <div class="slider_container">
+          <div class="slider">
+            <img src="Images/Halo.png" alt="" id="1" />
+            <img src="Images/nebula.png" alt="" id="2" />
+            <img src="Images/data stack .png" alt="" id="3" />
+            <img src="Images/rugged planet .png" alt="" id="4" />
+            <img src="Images/untitled.png" alt="" id="5" />
+          </div>
         </div>
-
+        <div class="slider_nav">
+          <a href="#1">&#9898;</a>
+          <a href="#2">&#9898;</a>
+          <a href="#3">&#9898;</a>
+          <a href="#4">&#9898;</a>
+          <a href="#5">&#9898;</a>
+        </div>
+        <p>You can also view my Design portfolio throught this.&#128071;</p>
+        <buttun class="reach"
+          ><a
+            href="https://drive.google.com/drive/folders/18g46zbwdJFZBXqXtMwOciA3Qk23sdnhF?usp=drive_link"
+            target="_blank"
+            >Design Portfolio</a
+          ></buttun
+        >
+      </div>
     </section>
     <section id="contact">
-        <h4>These Are My Socials</h4>
-        <div id="row_cont">
-         
-            <div id="col_cont">
-                <div id="row_cont"><img src="Images/github.png" alt="" class="social"><a href="">GitHub</a></div>
-                <div id="row_cont"><img src="Images/linkedin.png" alt="" class="social"><a href="">LinkedIn</a></div>
-                <div id="row_cont"><img src="Images/facebook.png" alt="" class="social"><a href="">Facebook</a></div>
-                <div id="row_cont"><img src="Images/instagram.png" alt="" class="social"><a href="">Instagram</a></div>
-            </div>
-            <div id="col_cont">
-                <form>
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname">
-                </form>
-            </div>
+      <h4>These Are My Socials</h4>
+      <div id="row_cont">
+        <div id="col_cont">
+          <div class="click">
+            <img src="Images/gmail.png" alt="" class="social" />
+            <h4><a href="" target="_blank">Email Me</a></h4>
+          </div>
+          <div class="click">
+            <img src="Images/github.png" alt="" class="social" />
+            <h4><a href="https://github.com/Nakulsh122" target="_blank">My GitHub</a></h4>
+          </div>
+          <div class="click">
+            <img src="Images/facebook.png" alt="" class="social" />
+            <h4><a href="https://www.facebook.com/profile.php?id=100087654607839" target="_blank">Nakul Sharma</a></h4>
+          </div>
+          <div class="click">
+            <img src="Images/instagram.png" alt="" class="social" />
+            <h4><a href="https://www.instagram.com/_no_kool/" target="_blank">No_kool_</a></h4>
+          </div>
         </div>
+        <div class="form">
+          <form action="">
+            <h4>Ask Your Queries</h4>
+            <label>
+              First Name :
+              </label>
+              <input type="text" placeholder="First Name">
+            <label>
+              Last Name :
+              </label> 
+              <input type="text" placeholder="Last Name">
+            <label>
+              Your Queries :
+              </label>
+              <textarea name="" id="" cols="30" rows="10">Write your queries here</textarea>
+          </form>
+        </div>
+      </div>
     </section>
-    <footer>
-        ~Nakul Sharma # No_Kool~
-    </footer>
+    <footer>~Nakul Sharma # No_Kool~</footer>
   </body>
 </html>
